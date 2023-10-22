@@ -1,0 +1,130 @@
+#main{
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    width: 1000px;
+    background-color:#101826;
+    align-items: center;
+}
+
+.frame{
+    box-sizing: border-box;
+    height:640px;
+    width: 320px;
+    background-color:#ffffff;
+    border: #404040 solid 8px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topbar{
+    display: flex;
+    justify-content: flex-end;
+    height: 48px;
+    width: 304px;
+}
+.icontop{
+    display: flex;
+    padding-top: 16px;
+    padding-right: 16px;
+    gap:16px;
+    
+}
+#bell{
+    color: #A3A3A3;
+    height: 20px;
+}
+
+#user{
+    color: #A3A3A3;
+    height: 20px;
+}
+
+.title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #404040;
+    padding-left: 16px;
+    padding-top: 1px;
+}
+
+.holder{
+    display: flex;
+    width: 304px;
+    justify-content: center;
+}
+
+.container{
+    height: 487px;
+    overflow: auto;
+}
+.container::-webkit-scrollbar{
+    width: 0;
+}
+
+.tab{
+    height: 96px;
+    width: 272px;
+    background-color: #0891B2;
+    margin-top: 10px;
+    border:none;
+    border-radius: 6px;    
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.tab>a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    padding-left: 16px;
+    padding-bottom: 14px;
+}
+
+
+
+.footer > svg{
+    height: 20px;
+    color: #A3A3A3;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    background: #0891B2;
+    border-radius: 9999px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.footer{
+    display: flex;
+    height: 56px;
+    width: 304px;
+    justify-content: space-around;
+    align-items:center;
+    margin-top: auto;
+}
+
